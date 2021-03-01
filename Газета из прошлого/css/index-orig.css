@@ -1,0 +1,374 @@
+*/ body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Six Caps';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/six-caps-v11-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Six Caps'), local('SixCaps'),
+        url('../fonts/six-caps-v11-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/six-caps-v11-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/six-caps-v11-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/six-caps-v11-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/six-caps-v11-latin-regular.svg#SixCaps') format('svg');
+    /* Legacy iOS */
+}
+
+
+@font-face {
+    font-family: 'Rye';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rye-v8-latin-ext_latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Rye Regular'), local('Rye-Regular'),
+        url('../fonts/rye-v8-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/rye-v8-latin-ext_latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/rye-v8-latin-ext_latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/rye-v8-latin-ext_latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/rye-v8-latin-ext_latin-regular.svg#Rye') format('svg');
+    /* Legacy iOS */
+}
+
+/* racing-sans-one-regular - latin-ext_latin */
+@font-face {
+    font-family: 'Racing Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/racing-sans-one-v8-latin-ext_latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Racing Sans One'), local('RacingSansOne-Regular'),
+        url('../fonts/racing-sans-one-v8-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/racing-sans-one-v8-latin-ext_latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/racing-sans-one-v8-latin-ext_latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/racing-sans-one-v8-latin-ext_latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/racing-sans-one-v8-latin-ext_latin-regular.svg#RacingSansOne') format('svg');
+    /* Legacy iOS */
+}
+
+/* space-mono-regular - vietnamese_latin-ext_latin */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/space-mono-v6-vietnamese_latin-ext_latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Space Mono'), local('SpaceMono-Regular'),
+        url('../fonts/space-mono-v6-vietnamese_latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/space-mono-v6-vietnamese_latin-ext_latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/space-mono-v6-vietnamese_latin-ext_latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/space-mono-v6-vietnamese_latin-ext_latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/space-mono-v6-vietnamese_latin-ext_latin-regular.svg#SpaceMono') format('svg');
+    /* Legacy iOS */
+}
+
+/* farsan-regular - vietnamese_latin-ext_latin_gujarati */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/farsan-v6-vietnamese_latin-ext_latin_gujarati-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Farsan Regular'), local('Farsan-Regular'),
+        url('../fonts/farsan-v6-vietnamese_latin-ext_latin_gujarati-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/farsan-v6-vietnamese_latin-ext_latin_gujarati-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/farsan-v6-vietnamese_latin-ext_latin_gujarati-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/farsan-v6-vietnamese_latin-ext_latin_gujarati-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/farsan-v6-vietnamese_latin-ext_latin_gujarati-regular.svg#Farsan') format('svg');
+    /* Legacy iOS */
+}
+
+
+.clear-fix:after {
+    display: block;
+    clear: both;
+
+    content: '';
+}
+
+/*––––––––––––––––––Шапка газеты––––––––––––––––––––*/
+.header {
+    margin: 35px 0 25px;
+}
+
+.header__info {
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 25px 10px;
+
+    border: 1px solid;
+}
+
+.header__weather {
+    float: right;
+
+    width: 200px;
+}
+
+.header__weather-title {
+    margin: 0;
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 117%;
+    text-align: center;
+
+}
+
+.header__weather-text {
+    margin: 0;
+    text-align: justify;
+    font-size: 80%;
+    line-height: 110%;
+
+}
+
+.header__title {
+    overflow: visible;
+    font-family: 'Rye';
+    margin: 0;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+/*––––––––––––––––––Подшапка газеты–––––––––––––––––*/
+.sub-header {
+    padding: 5px 0;
+
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+}
+
+.sub-header__copyright {
+    display: inline-block;
+    font-size: 60%;
+    margin: 0 30px;
+}
+
+.sub-header__price {
+    float: right;
+}
+
+
+/*––––––––––––––––––Основной контент––––––––––––––––*/
+.content {
+    display: flex;
+}
+
+/*––––––––––––––––––Блок статьи–––––––––––––––––––––*/
+.article__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 320%;
+
+}
+
+.article__help {
+    margin-top: 10px !important;
+    margin-bottom: 4px !important;
+}
+
+
+.article__add-text {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    text-indent: 20px;
+    font-style: italic;
+
+}
+
+.article__author {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 80%;
+}
+
+.article__content {
+    font-size: 80%;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.article__continue {
+    display: block;
+    font-size: 80%;
+    font-style: italic;
+    text-align: center;
+}
+
+.article__image {
+    margin: 0;
+    text-indent: 0;
+
+}
+
+.article__image.article__image_align_right {
+    float: right;
+
+    margin: 10px 0 5px 10px;
+}
+
+.article__subtitle {
+    margin: 10px 0;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 117%;
+    font-weight: bold;
+}
+
+.article__title_article__title_font_racing {
+    font-family: 'Racing Sans One';
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.article__image-caption {
+    text-decoration: underline;
+}
+
+/*––––––––––––––––––Блок главной фотографии–––––––––*/
+.main-photo__wrapper {
+    margin: 0;
+}
+
+.main-photo__img {
+    width: 100%;
+}
+
+.main-photo__title {
+    margin: 0;
+}
+
+.main-photo__desc {
+    margin-bottom: 20px;
+    font-size: 80%;
+}
+
+.main-photo__caption {
+    text-align: right;
+    font-size: 70%;
+    text-transform: uppercase;
+}
+
+/*––––––––––––––––––Линия разделения––––––––––––––––*/
+.line {
+    border-top: 1px solid #000;
+}
+
+.line.line_type_bold {
+    margin-bottom: 3px;
+
+    border-width: 2px;
+}
+
+.line.line_type_short {
+    width: 70px;
+    margin: 0 auto;
+}
+
+/*––––––––––––––––––Центральные колонки газеты––––––––––––––––––*/
+.multicolumn {
+    margin-top: 10px;
+}
+
+.multicolumn__right,
+.multicolumn__left {
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 49%;
+
+    vertical-align: top;
+
+}
+
+.multicolumn__right {
+    padding-left: 10px;
+}
+
+.multicolumn__left {
+    padding-right: 10px;
+
+    border-right: 1px solid #000;
+}
+
+.multicolumn .line_type_short {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.multicolumn .article__title {
+    margin: 10px 0 0 0;
+}
+
+.center-column {
+    margin-top: 20px;
+    padding: 0 10px;
+
+    flex-grow: 2;
+}
+
+.article_article_columns_two p {
+    column-count: 2;
+    column-gap: 15px;
+    word-break: break-all;
+    line-height: normal;
+
+}
+
+.article__title_article__title_font_farsan {
+    font-family: 'Farsan';
+    font-style: italic;
+    font-size: 230%;
+    font-weight: bold;
+}
+
+/*––––––––––––––––––Второстепенные колонки газеты––––––––––––––––––*/
+.left-column {
+    border-right: 1px solid #000;
+}
+
+.right-column {
+    border-left: 1px solid #000;
+}
+
+.right-column,
+.left-column {
+    box-sizing: border-box;
+    width: 200px;
+    margin-top: 20px;
+    padding: 0 10px;
+
+    flex-shrink: 0;
+}
+
+/*––––––––––––––––––––––––––––––––––––––––––––––––––*/

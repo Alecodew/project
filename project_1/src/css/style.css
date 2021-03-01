@@ -1,0 +1,30 @@
+body {
+    background-color: khaki;
+}
+
+
+.box {
+    display: inline-block;
+    vertical-align: middle;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(103, 126, 79);
+    padding: 20px;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: maroon; */
+    border: 3px solid black;
+    margin: 20px;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+
+}
+
+/* блочные/*  
+/* строчные */
+/* строчно блочные  */

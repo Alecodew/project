@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    font-family: Cambria, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.flexbox_item {
+    display: flex;
+
+
+}
+
+
+
+
+.flexbox_item div {
+    border: 5px groove;
+    padding: 20px;
+}
+
+.body_item_1 {
+    flex: 2;
+    order: 2;
+}
+
+.body_item_2 {
+    flex: 2;
+    order: 1;
+}
+
+.body_item_3 {
+    flex: 1;
+    order: 3;
+}

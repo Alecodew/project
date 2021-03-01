@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url('../fonts/Roboto-Black.eot');
+    src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Black.woff') format('woff'),
+        url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 800px;
+    background: url('../img/bg/bg_sshadow.png') center center/cover no-repeat;
+
+    padding: 39px 0 62px 0;
+
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.title {
+    color: #f9bf3b;
+
+    font-family: 'Roboto Black';
+    font-size: 41px;
+    /* font-weight: 900; */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.simple .title_big {
+    color: #ffffff;
+
+    font-size: 80px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+
+.promo .promo_text {
+    padding: 0 13px;
+    margin-top: 23px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: center;
+}
+
+.promo .promo_text span {
+    color: #f9bf3b;
+
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 73px auto;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.more {
+    margin-top: 70px;
+}
+
+.more .more_text {
+    color: #ffffff;
+    font-family: "Roboto - Thin";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+    width: 30px;
+    height: 19px;
+}
+
+/* БЛОК 2 , ЧТО ВАС ЖДЕТ В ИНТЕНСИВЕ */
+
+.waiting {
+    min-height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+h2.waiting_header,
+.finish_header {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_divider,
+.finish_divider {
+    margin: 0 auto;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+
+    text-align: center;
+    margin-top: 17px;
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.waiting .waiting_wrapper .waiting_item {
+
+    vertical-align: top;
+    margin: 0 15px;
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+
+}
+
+
+/* <!-- ОПТИМИЗАЦИЯ--> */
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization_header {
+    margin-left: 391px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: justifyLeft;
+}
+
+.optimization .optimization_text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+
+}
+
+
+/* <!-- ПО ОКОНЧАНИЮ ОБУЧЕНИЯ --> */
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/completion_of_training_bg.png') center center/cover no-repeat;
+}
+
+h2.finish_header {
+    color: ivory;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_descr {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+
+}
+
+/* Подарочная секция */
+
+.gift {
+    min-height: 628px;
+    padding: 86px 0;
+    background-color: #efefef;
+}
+
+.gift_header {}
+
+.gift .gift_header .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text {
+    padding: 42px 430px;
+
+    color: #252525;
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+
+    text-align: center;
+}
+
+.gift .btn_gift {
+    display: block;
+
+    margin: 52px auto;
+
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.11);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+
+.footer {
+    min-height: 681px;
+}
+
+.footer .footer_img .man {
+    display: block;
+    margin: 0 auto;
+    padding: 89px 0 0 0;
+}
+
+.footer .webinar {
+    margin: 37px 0 0 0;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer .time {
+    padding: 30px 0 0 0;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer .text {
+    padding: 25px 0 64px 0;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer .footer1 .text {
+    padding: 61px 0 69px 0;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer .footer1 {
+    min-height: 166px;
+    background-color: #1a1a1a;
+}
