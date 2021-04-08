@@ -296,5 +296,20 @@ body {
   background-color: #34547A;
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__box_text {
+  color: #fff;
+}
+
+.footer__box2 {
+  display: flex;
+  justify-content: start;
+}
+
+a a + a {
+  padding-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
