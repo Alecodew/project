@@ -204,23 +204,28 @@ body {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .projects__box {
   width: 475px;
   height: 475px;
-  overflow: hidden;
   position: relative;
   background-image: url(../img/Rectangle1.png);
   background-size: cover;
   background-position: center;
 }
 
-.projects__box:hover {
-  background: url(../img/glass.png) no-repeat;
-  background-color: #34547A;
-  text-align: center;
+.projects__box:hover .projects__box_item {
+  opacity: 0.9;
+}
+
+.projects__box_item {
+  background: url(../img/glass.png) no-repeat 50% 50%;
+  background-color: rgba(52, 84, 122, 0.8);
+  width: 475px;
+  height: 475px;
+  position: absolute;
+  opacity: 0;
 }
 
 .clients {

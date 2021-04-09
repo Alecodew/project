@@ -191,24 +191,30 @@ body
     
     display: flex
     flex-wrap: wrap
-    align-items: center
-    
     
     &__box
         width: 475px
         height: 475px
-        overflow: hidden
         position: relative
         background-image: url(../img/Rectangle1.png)
         background-size: cover
         background-position: center
-        
-        &:hover 
-           
-
-            background: url(../img/glass.png) no-repeat  
-            background-color: #34547A 
-            text-align: center
+        &:hover &_item
+            opacity: 0.9
+            
+        &_item
+            background: url(../img/glass.png) no-repeat 50% 50%
+            background-color: rgba(52,84 ,122 ,0.8 )
+            width: 475px
+            height: 475px
+            position: absolute
+            opacity: 0
+            
+            
+            
+    
+                 
+            
             
 
         
