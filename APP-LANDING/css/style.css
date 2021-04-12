@@ -120,6 +120,7 @@ h5 {
   font-size: 10px;
   font-family: Roboto, sans-serif;
   margin-bottom: 16px;
+  text-transform: uppercase;
 }
 
 .ta-c {
@@ -622,6 +623,35 @@ h5 {
 
 /** Get started **/
 /** Faq **/
+.section-faq h4 {
+  font-weight: 500;
+}
+
+.faq-accordion__item {
+  border-bottom: 1px solid #000;
+}
+
+.faq-accordion__item-trigger {
+  display: flex;
+  cursor: pointer;
+}
+
+.faq-accordion__item-trigger-icon {
+  width: 60px;
+}
+
+.faq-accordion__item-trigger-icon path {
+  stroke: #495274;
+}
+
+.faq-accordion__item-content {
+  display: flex;
+}
+
+.faq-accordion__item-content-text {
+  flex-grow: 1;
+}
+
 /** Faq **/
 /** Newsletter **/
 .section-newsletter {

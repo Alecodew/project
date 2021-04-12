@@ -138,6 +138,7 @@ h5
 	font-size: 10px
 	@include roboto
 	margin-bottom: $base*4
+	text-transform: uppercase
 	
 
 .ta-c
@@ -560,6 +561,30 @@ h5
 /** Get started **/
 
 /** Faq **/
+.section-faq
+	h4
+		font-weight: $fw-medium
+
+.faq-accordion
+	&__item
+		border-bottom: 1px solid #000
+		&-trigger
+			display: flex
+			cursor: pointer
+			&-icon
+				width: $base*15
+
+				path 
+					stroke: #495274
+			&-text
+
+		&-content
+			display: flex
+			&-text
+				flex-grow: 1
+
+			&-btn
+
 /** Faq **/
 
 /** Newsletter **/
@@ -612,3 +637,4 @@ h5
 	margin-top: $base*7
 	margin-left: $base*24
 /** Footer **/
+	
