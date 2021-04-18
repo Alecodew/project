@@ -4,13 +4,38 @@
     font-family: Roboto, sans-serif
 
 @mixin Sans 
-    font-family: Source Sans Pro, sans-serif
+    font-family: Source sans pro, sans-serif
        
 
+.section-outer
+    max-width: 1920px
+
+.btn
+    width: 143px
+    height: 40px
+    border-radius: 20px
+    background-color: #fff  
+    text-transform: uppercase
+    color: #250F8A
+    font-size: 15px
+    font-weight: 600
+    text-align: center
+    @include Sans
+
+    &--yellow
+        width: 200px
+        height: 50px
+        background-color: #FFCA00
+    
+.section-nav
+    background: url(../img/background1.png) no-repeat 50% 50%
+    min-height: 793px
 
 
 .header
     padding-top: 32px
+     
+    
     &__logo
         display: flex
         align-items: center
@@ -18,19 +43,58 @@
         &_text
             padding-left: 12px
             @include Sans
+            font-weight: 600
+            font-size: 20px
+            color: #fff
             
             
             
     
     &__nav
-        
-        &_list
-            display: flex
-            justify-content: space-between
-            &_item
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &_item
+            a
+                text-decoration: none
+                font-size: 15px
+                font-weight: 600
+                @include Sans
+                text-transform: uppercase
+                color: #fff
+                
     
     &__login
         display: flex
+        align-items: center
         &_log
+            a
+                text-decoration: none
+                font-size: 15px
+                font-weight: 600
+                @include Sans
+                text-transform: uppercase
+                color: #fff
         &_btn
             padding-left: 43px
+            
+
+.content
+    padding-top: 141px
+    &__title
+        color: #fff
+        @include Sans
+        font-weight: 700
+        font-size: 45px
+        line-height: 60px
+    &__subtitle
+        color: #fff
+        @include Sans
+        font-weight: 400
+        font-size: 24px
+        line-height: 55px
+        padding-top: 10px
+        padding-bottom: 60px
+
+        
+    &__btn
