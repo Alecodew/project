@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@400;600;700&display=swap')
+
+@mixin roboto
+    font-family: Roboto, sans-serif
+
+@mixin Sans 
+    font-family: Source Sans Pro, sans-serif
+       
+
+
+
+.header
+    padding-top: 32px
+    &__logo
+        display: flex
+        align-items: center
+        &_img
+        &_text
+            padding-left: 12px
+            @include Sans
+            
+            
+            
+    
+    &__nav
+        
+        &_list
+            display: flex
+            justify-content: space-between
+            &_item
+    
+    &__login
+        display: flex
+        &_log
+        &_btn
+            padding-left: 43px

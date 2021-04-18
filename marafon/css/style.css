@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+.header {
+  padding-top: 32px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo_text {
+  padding-left: 12px;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.header__nav_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__login {
+  display: flex;
+}
+
+.header__login_btn {
+  padding-left: 43px;
+}
+/*# sourceMappingURL=style.css.map */
