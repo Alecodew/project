@@ -98,4 +98,41 @@
   padding-top: 10px;
   padding-bottom: 60px;
 }
+
+.section-features {
+  padding-bottom: 93px;
+}
+
+.section-features__title {
+  font-family: Source sans pro, sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #202020;
+  padding-bottom: 95px;
+}
+
+.section-features__card_item {
+  text-align: center;
+  max-width: 280px;
+  max-height: 280px;
+}
+
+.section-features__card_item-title {
+  font-family: Source sans pro, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+  padding-top: 23px;
+  padding-bottom: 13px;
+}
+
+.section-features__card_item-text {
+  font-family: Source sans pro, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #272727;
+  opacity: 0.7;
+}
 /*# sourceMappingURL=style.css.map */
