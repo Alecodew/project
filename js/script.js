@@ -143,8 +143,52 @@ switch (numder) {
     
 } */
 
-function checkAge (age) {
+/* function checkAge (age) {
     return age>18 || confirm('родители разрешили?');
     
 }
-checkAge(age);
+checkAge(age); */
+
+/* function All () {
+    console.log('message');
+}
+
+All(); */
+
+let num = 20;
+function showFirstmessage(text){
+    console.log(text);
+    num = 10;
+}
+
+showFirstmessage('hello world');
+console.log(num);
+
+/* function calc(a,b) {
+    return (a+b);
+}
+console.log(calc(4,6));
+console.log(calc(4,11));
+console.log(calc(3,6)); */
+
+
+function ret () {
+    let num = 50;
+
+    
+
+
+    return num;
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+
+const logger = function () {
+    console.log('hello');
+};
+logger();
+
+
+const calc = (a,b) => a+b;
