@@ -16,7 +16,7 @@ alert(_sosya); */
 
 
 
-/* 
+/*
 let myName = prompt('Как тебя зовут?');
 alert(`Тебя зовут ${myName}`); */
 
@@ -45,7 +45,7 @@ if (browser == 'Edge') {
 
 
 
-/* 
+/*
 let login = prompt('Кто там?');
 
 if (login == 'Админ') {
@@ -58,7 +58,7 @@ if (login == 'Админ') {
      }
      else{
          alert('Неверный пароль');}
-    
+
 }else if (login =='') {
     alert('Отменено');
 }else if (login == null) {
@@ -66,63 +66,63 @@ if (login == 'Админ') {
 }else{
     alert ('Я вас не знаю.');
  }
- 
+
   */
 
 
 
 
 
- /* let poo = 10;
+/* let poo = 10;
 
- while (poo<50) {
-     alert (poo);
-     poo++;
- } */
+while (poo<50) {
+    alert (poo);
+    poo++;
+} */
 
- /* for (let i = 1; i<10; i++) {
-     if (i=== 6) {
-         continue;
-     }
+/* for (let i = 1; i<10; i++) {
+    if (i=== 6) {
+        continue;
+    }
 alert(i);
- } */
+} */
 
 
 
 
- /* const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+/* const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
+   count: numberOfFilms,
+   movies: {},
+   actors: {},
+   genres: [],
+   privat: false
 }; */
 
 
- /* for (let i=0; i<2; i++) {
-    const a = prompt ('Один из последних просмотренных фильмов?',''),
-          b = prompt ('На сколько оцените его?','');
+/* for (let i=0; i<2; i++) {
+   const a = prompt ('Один из последних просмотренных фильмов?',''),
+         b = prompt ('На сколько оцените его?','');
 
-    if(a != null && b !=null && a !='' && b !='' && a.length<50) {
-        personalMovieDB.movies[a] = b;
-        console.log('done');
-    } else {
-        console.log('error');
-        i--;
-    }
- }
+   if(a != null && b !=null && a !='' && b !='' && a.length<50) {
+       personalMovieDB.movies[a] = b;
+       console.log('done');
+   } else {
+       console.log('error');
+       i--;
+   }
+}
 
- if(personalMovieDB.count<10){
-     console.log('Просмотрено довольно мало фильмов');
- } else if(personalMovieDB.count>=10 && personalMovieDB<30) {
-    console.log('Вы классический зритель');
- } else if(personalMovieDB.count>=30) {
-     console.log('Вы киноман');
- }else {
-     console.log('Произошла ошибка');
- }
+if(personalMovieDB.count<10){
+    console.log('Просмотрено довольно мало фильмов');
+} else if(personalMovieDB.count>=10 && personalMovieDB<30) {
+   console.log('Вы классический зритель');
+} else if(personalMovieDB.count>=30) {
+    console.log('Вы киноман');
+}else {
+    console.log('Произошла ошибка');
+}
 
 console.log(personalMovieDB); */
 
@@ -140,12 +140,12 @@ switch (numder) {
     case 3:
         alert ('Вы ввели число 2, а может и 3 ');
         break;
-    
+
 } */
 
 /* function checkAge (age) {
     return age>18 || confirm('родители разрешили?');
-    
+
 }
 checkAge(age); */
 
@@ -154,7 +154,7 @@ checkAge(age); */
 }
 
 All(); */
-
+/*
 let num = 20;
 function showFirstmessage(text){
     console.log(text);
@@ -162,7 +162,7 @@ function showFirstmessage(text){
 }
 
 showFirstmessage('hello world');
-console.log(num);
+console.log(num); */
 
 /* function calc(a,b) {
     return (a+b);
@@ -172,10 +172,10 @@ console.log(calc(4,11));
 console.log(calc(3,6)); */
 
 
-function ret () {
+/* function ret () {
     let num = 50;
 
-    
+
 
 
     return num;
@@ -191,4 +191,5 @@ const logger = function () {
 logger();
 
 
-const calc = (a,b) => a+b;
+const calc = (a,b) => a+b; */
+
