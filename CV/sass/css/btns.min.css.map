@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,AAAC,CAED,UAAU,CAAE,OAAO,CACnB,UAAU,CAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,gBAAmB,CAC3C,OAAO,CAAE,SAAS,CAAG",
-    "sources": [
-        "../blocks/btns.sass"
-    ],
-    "names": [],
-    "file": "btns.min.css"
-}

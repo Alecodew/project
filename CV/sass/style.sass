@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap')
 
-@import 'base/_mixins'
 @import 'base/_variables'
-
-.container
-    width: 1140px
-    margin: 0 auto
-    font-family: Poppins,sans-serif
+@import 'base/_mixins'
 
 @import 'blocks/_promo'
 @import 'blocks/_title'
 @import 'blocks/_btn'
+@import 'blocks/_sidepanel'
+
+.container
+    width: 1140px
+    margin: 0 auto
+    @include Poppins

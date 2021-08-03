@@ -3,11 +3,18 @@
 .promo
     min-height: 100vh
     position: relative
-    background: url(../img/background.jpg) no-repeat 50%/cover
+    background: url(../img/bg1.jpg) no-repeat 50%/cover
+
     padding-top: 205px
     &__title
         width: 535px
         margin-top: 10px
+    &__subtitle
+        @include before_circle
+        position: relative
+        padding-left: 10px
+        z-index: 2
+
     &__btns
         margin-top: 25px
         display: flex

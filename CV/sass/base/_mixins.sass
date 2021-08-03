@@ -1,3 +1,15 @@
 /** MIXIN **/
 @mixin Poppins
     font-family: Poppins,sans-serif
+
+@mixin before_circle
+    &::before
+        content: ''
+        width: 36px
+        height: 36px
+        border-radius: 100%
+        position: absolute
+        background: $main-color
+        z-index: -1
+        top: -25%
+        left: 0
