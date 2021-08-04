@@ -195,7 +195,8 @@ const calc = (a,b) => a+b; */
 let Pets = {
     cat: 2,
     dog:1,
-    parrot:3
+    parrot:3,
+    rabbit:2,
 };
 
 console.log(Pets.dog);
